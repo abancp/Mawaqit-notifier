@@ -1,0 +1,6 @@
+[Unit]
+Description=Check prayer iqamah times and notify if one is due soon
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/prayer_notify.py

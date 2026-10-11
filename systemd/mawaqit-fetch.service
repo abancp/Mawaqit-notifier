@@ -1,0 +1,6 @@
+[Unit]
+Description=Fetch daily prayer times from Mawaqit
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/mawaqit_fetch.py

@@ -1,0 +1,6 @@
+[Unit]
+Description=Check prayer times and notify for Adhan / Iqamah
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/prayer_notify.py
